@@ -9,5 +9,3 @@ for (let y = 1; y <= 10; y++) {
     console.log(`${num} * ${i } = ${result}`);
   }
 }
-
-
