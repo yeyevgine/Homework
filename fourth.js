@@ -28,7 +28,7 @@ if(s){
 }*/
 
 //4c
-let num = 8765489;
+/*let num = 8765489;
 let strNum = String(num);
 let x = true;
 for (let i = 0; i < strNum.length; i++) {	
@@ -38,6 +38,4 @@ for (let i = 0; i < strNum.length; i++) {
 }
 if(x){
  console.log("yes");
-}
-
-
+}*/
