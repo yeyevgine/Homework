@@ -15,13 +15,29 @@ for (let i = 0; i < strNum.length; i++) {
 }*/
 
 //4b
-let num = 18878890;
+/*let num = 9876;
 let strNum = String(num);
-
-let i = 0;
-while(i < strNum.length) {
- if (strNum[i] !== "5") {
-     i++;
-  } 
+let s = true;
+for (let i = 0; i < strNum.length; i++) {	
+		if(strNum[i] === "5"){
+    	s = false;
+    }
 }
-console.log("yes");
+if(s){
+ console.log("yes");
+}*/
+
+//4c
+let num = 8765489;
+let strNum = String(num);
+let x = true;
+for (let i = 0; i < strNum.length; i++) {	
+		if(strNum[i] >= strNum[i+1]){
+    	x = false;
+    }
+}
+if(x){
+ console.log("yes");
+}
+
+
