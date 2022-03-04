@@ -12,5 +12,3 @@ function fac(num) {
    
 }
 console.log(fac(1));
-
-
