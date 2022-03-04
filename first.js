@@ -9,6 +9,7 @@
 function fac(num) {
 
   return (num == 0) ? 1 : (num < 0) ? 0 : (num * fac(num - 1));
+   
 }
 console.log(fac(1));
 
